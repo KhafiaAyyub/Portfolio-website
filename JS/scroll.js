@@ -59,23 +59,11 @@ function addProgress(range = [0, 8]) {
   }
 }
 
-/*function removeProgress(range = [0, 8]) {
-  for(let i = range[0]; i <= range[1]; i++) {
-    progress[i].style.width = '100%';
-  }
-}*/
 
 $(document).ready(function () {
   const $projeto1 = $(".projeto1-progress"),
     windowHeightprojeto1 = $(window).height(),
     offsetprojeto1 = windowHeightprojeto1 - windowHeightprojeto1 / 4;
-
-
-
-  
-
-  
-  
 
   function animeScroll() {
     const documentTop = $(document).scrollTop();
