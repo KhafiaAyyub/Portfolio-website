@@ -3,7 +3,6 @@ root.className += " scroll";
 
 var scrollYOld = 0;
 
-
 $('.a[href^="#"]').on('click', function(e) {
 	e.preventDefault();
 	var link = $(this).attr('href'),
